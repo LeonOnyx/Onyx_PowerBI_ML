@@ -1,4 +1,3 @@
-import pandas as pd
 from pycaret.classification import *
 directory = r'C:\Users\MrLeo\sales-model'
 rforest_model = load_model(directory)
